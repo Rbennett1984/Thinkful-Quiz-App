@@ -1,0 +1,95 @@
+/* Clearfix */
+
+.col-4,
+.col-8 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.04166666%;
+    padding-right: 1.04166666%;
+}
+.col-4 {
+   margin-left: auto;
+    margin-right: auto;
+    width: 33.33%
+}
+.col-8 {
+    width: 66.67%
+}
+
+@media screen and (max-width: 1190px) {
+    .questionAnswerForm,
+    .quizStart {
+        width: 80%;
+        margin-bottom: 100px
+    }
+
+     h1 {
+        font-size: 3em
+    }
+ footer header ul {
+      margin: 10px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+}
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 120px;
+        height: 120px;
+        display: block;
+        margin: auto;
+        margin-right: auto;
+        margin-left: auto; 
+    }
+    footer header ul {
+        margin: 10px;
+        text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+ 
+    }
+    h1 {
+        font-size: 1.5em
+    }
+    footer header ul li {
+        padding: 10px;
+        font-size: 18px
+    }
+    .col-4,
+    .col-8 {
+        width: 100%
+    }
+    #start {
+        width: 100%;
+        padding: 40px;
+        margin-top: 0
+    }
+    h2 {
+        font-size: 18px
+    }
+    .questionAnswerForm {
+        width: 100%;
+        padding: 20px;
+        margin-top: 0
+    }
+    label {
+        font-size: 16px;
+        padding: 15px
+    }
+    .correctFeedback img {
+        width: 100px;
+        height: auto
+    }
+    .correctFeedback p {
+        font-size: 16px;
+        margin: 0 15px
+    }
+    .results p:first-of-type {
+        font-size: 18px
+    }
+    h3 {
+        font-size: 25px
+    }
